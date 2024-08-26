@@ -3,7 +3,7 @@
 #include <assert.h>
 
 void main(){
-    FILE* arqv = fopen("saida.txt", "w");
+    FILE* arqv = fopen("saida.txt", "wt");
     if (arqv == NULL){
         printf("Erro ao abrir o arquivo.\n");
         return;
